@@ -12,7 +12,7 @@ rect(50,50,20,40);
 }
 
 function draw() {
-  background(200,100,250);
+  background(200,200,250);
 for(let j=0;j<tree.length;j++){
   tree[j].show();
   tree[j].jitter();
