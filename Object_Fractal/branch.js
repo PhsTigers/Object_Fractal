@@ -21,6 +21,16 @@ let newbrL=p5.Vector.add(this.end,dir);
 let left=new branch(this.end,newbrL);
 return left;
 }
+branchM(){
+let dir=p5.Vector.sub(this.end,this.begin);
+dir.mult(.677);
+let newbrM=p5.Vector.add(this.end,dir);
+let middle=new branch(this.end,newbrM);
+return middle;
+}
+
+  
+  
 jitter(){
 this.end.x+=random(-2,2);
 this.end.y+=random(-3,3);
