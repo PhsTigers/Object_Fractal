@@ -23,6 +23,7 @@ function mousePressed(){
   for(let j=tree.length-1;j>=0;j--){
     tree.push(tree[j].branchR());
     tree.push(tree[j].branchL());
+    tree.push(tree[j].branchM());
   }
 
 
