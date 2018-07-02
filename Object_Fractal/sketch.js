@@ -24,6 +24,9 @@ function mousePressed(){
     tree.push(tree[j].branchR());
     tree.push(tree[j].branchL());
     tree.push(tree[j].branchM());
+    tree.push(tree[j].branchRr());
+    tree.push(tree[j].branchLl());
+
   }
 
 
