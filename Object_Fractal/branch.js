@@ -3,8 +3,7 @@ class branch{
 constructor(begin,end){
   this.begin=begin;this.end=end;
 }
-show(){
-line(this.begin.x,this.begin.y,this.end.x,this.end.y);}
+show(){line(this.begin.x,this.begin.y,this.end.x,this.end.y);}
 
 branchR(){
 let dir=p5.Vector.sub(this.end,this.begin);
@@ -48,8 +47,7 @@ return left;
   
 jitter(){
 this.end.x+=random(-2,2);
-this.end.y+=random(-3,3);
-
+this.end.y+=random(-1,1);
 }
 
 }
