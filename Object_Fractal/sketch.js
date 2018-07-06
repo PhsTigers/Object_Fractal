@@ -8,7 +8,7 @@ b=createVector(width/2,height-100);
 br=new branch(a,b);
 tree[0]=br;
 fill(25,250,250);
-rect(50,50,20,40);
+//rect(50,50,20,40);
 }
 
 function draw() {
