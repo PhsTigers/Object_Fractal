@@ -29,7 +29,7 @@ return middle;
 }
 branchRr(){
 let dir=p5.Vector.sub(this.end,this.begin);
-dir.rotate(PI/3);dir.mult(.677);
+dir.rotate(PI/3);dir.mult(.55);
 let newbrR=p5.Vector.add(this.end,dir);
 let right=new branch(this.end,newbrR);
 return right;
@@ -37,7 +37,7 @@ return right;
 
 branchLl(){
 let dir=p5.Vector.sub(this.end,this.begin);
-dir.rotate(-PI/3);dir.mult(.677);
+dir.rotate(-PI/3);dir.mult(.55);
 let newbrL=p5.Vector.add(this.end,dir);
 let left=new branch(this.end,newbrL);
 return left;
