@@ -2,7 +2,7 @@ let can;let bRight;
 let a,b,br;let tree=[];
 function setup() {
   // put setup code here
-can=createCanvas(400,400);can.position(50,50);
+can=createCanvas(400,400);can.position(250,50);
   can.class("ch_bord");
 a=createVector(width/2,height);
 b=createVector(width/2,height-100);
